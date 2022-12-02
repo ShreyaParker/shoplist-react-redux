@@ -17,7 +17,7 @@ function App() {
               font-extrabold">SHOP LIST</h1>
           </div>
       <div className="flex flex-row  ">
-       <button className="mr-auto" onClick={()=>setFormInput(!formInput)}>
+       <button className="mr-auto " onClick={()=>setFormInput(!formInput)}>
            <LibraryAdd/>Add a Shop</button>
           <div>
               <Filter/>

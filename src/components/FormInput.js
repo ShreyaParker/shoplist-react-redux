@@ -49,8 +49,8 @@ const FormInput = ({type,setFormInput,shop}) => {
                 <button className=" pl-64 text-2xl text-red-800" onClick={()=>setFormInput(false)}>
                     x
                 </button>
-                <h1 className="text-2xl text-black">
-                    Add A shop
+                <h1 className="text-2xl text-center text-black">
+                    {type==="add"?"Add Shop":"Edit Shop"}
                 </h1>
                 <div className="flex flex-col">
                     <form onSubmit={handleSubmit} autoComplete="off" className="text-black gap-2  mx-8 text-start flex flex-col">

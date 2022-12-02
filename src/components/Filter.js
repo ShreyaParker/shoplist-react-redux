@@ -67,11 +67,13 @@ const Filter = () => {
                                 </div>
                             ))}
                         </div>
+                        <h1 className="md:text-2xl bg-fuchsia-300">Status</h1>
                         <div>
 
                                 <input type="checkbox" value="open" onChange={handleStatusChange}/>
+                               <label htmlFor="open">Open</label>
                                 <input type="checkbox" value="close" onChange={handleStatusChange}/>
-
+                                <label htmlFor="close">Close</label>
                         </div>
                     </div>
 
