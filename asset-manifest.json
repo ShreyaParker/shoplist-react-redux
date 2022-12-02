@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shoplist-react-redux%20/static/css/main.a8a11221.css",
-    "main.js": "/shoplist-react-redux%20/static/js/main.5bc717a6.js",
-    "index.html": "/shoplist-react-redux%20/index.html",
-    "main.a8a11221.css.map": "/shoplist-react-redux%20/static/css/main.a8a11221.css.map",
-    "main.5bc717a6.js.map": "/shoplist-react-redux%20/static/js/main.5bc717a6.js.map"
+    "main.css": "/shoplist-react-redux/static/css/main.3f3ea48b.css",
+    "main.js": "/shoplist-react-redux/static/js/main.8526a30b.js",
+    "index.html": "/shoplist-react-redux/index.html",
+    "main.3f3ea48b.css.map": "/shoplist-react-redux/static/css/main.3f3ea48b.css.map",
+    "main.8526a30b.js.map": "/shoplist-react-redux/static/js/main.8526a30b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a11221.css",
-    "static/js/main.5bc717a6.js"
+    "static/css/main.3f3ea48b.css",
+    "static/js/main.8526a30b.js"
   ]
 }
