@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from "react";
+import FormInput from "./components/FormInput";
+import ShopList from "./components/ShopList";
+
+import Filter from "./components/Filter";
+import {LibraryAdd} from "@mui/icons-material";
+
 
 function App() {
-  return (
+
+    const [formInput,setFormInput]=useState(false)
+   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="flex m-12 gap-10 flex-col">
+          <div className="flex justify-center ">
+              <h1 className="text-2xl md:text-4xl text-fuchsia-600
+              font-extrabold">SHOP LIST</h1>
+          </div>
+      <div className="flex flex-row  ">
+       <button className="mr-auto" onClick={()=>setFormInput(!formInput)}>
+           <LibraryAdd/>Add a Shop</button>
+          <div>
+              <Filter/>
+          </div>
+
+
+        </div>
+      <div>
+          {formInput ? <FormInput type="add" setFormInput={setFormInput}/> : ""}
+          <ShopList/>
+      </div>
+      </div>
     </div>
   );
 }
